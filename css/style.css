@@ -1,0 +1,22 @@
+:root{
+  --cor-fundo: #ffffff;
+  --cor-primaria: #14161b;
+  --cor-primaria2: #1b1d25ff;
+  --cor-round: #666d8aff;
+  --cor-hover: #872aff;
+  --cor-destaque: rgb(174, 62, 249);
+  --cor-link: #160090;
+  --cor-inicial-gradient: #3815ff;
+  --cor-rolagem: #917dff;
+}
+body{
+  background:#14161bff;
+  font-family: Inter,Helvetica,Arial,sans-serif;
+}
+#agradecimentos{
+  color: var(--cor-round);
+  text-align: center;
+  font-size: 18px;
+  text-shadow: 0px 0px 23px rgba(0, 0, 0, 1);
+  letter-spacing: 1px;
+}

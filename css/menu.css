@@ -1,0 +1,96 @@
+#home1{
+ background: rgb(22,0,144);
+background: linear-gradient(90deg, rgba(22,0,144,1) 0%, rgba(135,42,255,1) 100%); 
+  position: relative;
+  display: inline-block;
+  padding: 21px;
+  width: 1em;
+  box-shadow: -1px 2px #00000047;
+}
+#home1 > a{
+  color: var(--cor-fundo);
+  text-decoration: none;
+}
+
+.dropmenuu{
+  font-family: Inter,Helvetica,Arial,sans-serif;
+  text-shadow: 2px 2px 15px rgba(66, 68, 90, 0.45);
+  margin-left: 3.6em;
+}
+.dropmenuu ul{
+  list-style-type: none;
+  padding: 0;
+  background-color: var(--cor-fundo);
+  box-shadow: -1px 2px #00000047;
+}
+.dropmenuu ul li{
+  display: inline;
+  position: relative;
+  
+}
+.dropmenuu ul li a{
+  color: var(--cor-primaria);
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  transition: background .3s;
+  box-shadow: black;
+}
+
+.pessoal-hover{
+
+background: #160090;
+background: linear-gradient(to right, #160090 0%, #872AFF 79%);
+-webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  
+}
+.dropmenuu ul li a:hover{
+
+background: #160090;
+background: linear-gradient(to right, #160090 0%, #872AFF 79%);
+-webkit-background-clip: text; -webkit-text-fill-color: transparent;
+transition: .3s;
+
+}
+
+.dropmenuu ul ul{
+  display: none;
+  position: absolute;
+  left: 0;
+}
+.dropmenuu ul li:hover ul{
+  display: block;
+  
+}
+.dropmenuu ul ul{
+  width: 140px;
+  font-size: 15px;
+}
+.dropmenuu ul ul li a{
+  display: block;
+}
+
+#drop1{
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 1.5em;
+  margin-top: -2.5em;
+  height: 50px;
+  line-height: 40px;
+}
+
+#home1{
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 1.5em;
+  margin-top: -2.5em;
+  height: 34px;
+  line-height: 40px;
+}
+#icone > img{
+  margin-top: .5em;
+  margin-left: -.7em;
+  opacity: .8;
+}
